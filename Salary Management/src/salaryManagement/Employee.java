@@ -3,7 +3,7 @@ package salaryManagement;
 public abstract class Employee {
 	private int employeeId;
 	private String employeeName;
-	public static final double defaultSalaray = 50000;
+	private static final double defaultSalaray = 50000;
 	
 	public Employee (int employeeId,String name) {
 		this.employeeId = employeeId;
