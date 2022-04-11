@@ -1,6 +1,6 @@
 package salaryManagement;
 
-public class Index {
+public class View {
 	
 	public static void displayEmployeeDetailsWithSalary (Employee employee) {
 		employee.getDetails();
@@ -12,9 +12,9 @@ public class Index {
 		Employee incubationEmployee = new IncubationEmployee (002,"IncubationEmployee", 30);
 		Employee hourlyEmployee = new HourlyBasedEmployee (003,"HourlyEmployee", 320);
 		
-		Index.displayEmployeeDetailsWithSalary(confirmedEmployee);
-		Index.displayEmployeeDetailsWithSalary(incubationEmployee);
-		Index.displayEmployeeDetailsWithSalary(hourlyEmployee);
+		View.displayEmployeeDetailsWithSalary(confirmedEmployee);
+		View.displayEmployeeDetailsWithSalary(incubationEmployee);
+		View.displayEmployeeDetailsWithSalary(hourlyEmployee);
 		
 	}
 }
